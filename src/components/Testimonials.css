@@ -1,0 +1,89 @@
+/* Testimonials.css */
+
+.testimonials-section {
+  padding: 3rem 0; /* Reduced padding */
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1000px; /* Reduce the container width for a more compact view */
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+.experience-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.experience-button:hover {
+  background-color: #0056b3;
+}
+
+.testimonial-quote {
+  margin-top: 10px;
+  color: #555;
+}
+
+h2 {
+  font-size: 1.8rem; /* Slightly smaller heading */
+  margin-bottom: 1.5rem;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem; /* Reduced gap between cards */
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  padding: 1rem; /* Reduced padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 60px; /* Smaller image size */
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 0.75rem;
+}
+
+.testimonial-quote {
+  font-size: 0.9rem; /* Reduced font size */
+  font-style: italic;
+  margin: 0.75rem 0;
+}
+
+.testimonial-name {
+  font-size: 1rem; /* Slightly smaller name font */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive Adjustments */
+
+/* For small screens (phones, up to 480px) */
+@media (max-width: 480px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 0 0.5rem; /* Reduce padding on mobile */
+  }
+}
+
+/* For medium screens (tablets, up to 768px) */
+@media (max-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}

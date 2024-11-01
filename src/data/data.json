@@ -1,0 +1,58 @@
+{
+    "Team": [
+      {
+        "name": "Wen-Ren-Yang",
+        "role": "Chief",
+        "image": "img/team/prof1.jpg"
+      },
+      {
+        "name": "Johnson",
+        "role": "Member",
+        "image": "https://ibb.co/B4CqGss"
+      },
+      {
+        "name": "Bran",
+        "role": "Member",
+        "image": "/images/team3.jpg"
+      },
+      {
+        "name": "Erik",
+        "role": "Member",
+        "image": "images/Erik.jpg"
+      }
+    ],
+    "Testimonials": [
+        
+          {
+            "img": "https://th.bing.com/th/id/OIP.usWD4Ds7gU6ksZOZDNyF_AHaEK?w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5rm=2&w=1600&h=900&dpr=1.5&pid=ImgDetMain",
+            "text": "\"Being part of a multicultural team on a project that requires constant collaboration and understanding.\"",
+            "name": "person 1"
+          },
+          {
+            "img": "https://th.bing.com/th/id/OIP.usWD4Ds7gU6ksZOZDNyF_AHaEK?w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5rm=2&w=1600&h=900&dpr=1.5&pid=ImgDetMain",
+            "text": "\"Labs often sponsor or encourage members to attend and present at international AI conferences.\"",
+            "name": "person 2"
+          },
+          {
+            "img": "https://th.bing.com/th/id/OIP.usWD4Ds7gU6ksZOZDNyF_AHaEK?w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5rm=2&w=1600&h=900&dpr=1.5&pid=ImgDetMain",
+            "text": "\"Participating in events designed to share and celebrate different cultures, such as cooking classes.\"",
+            "name": "person 3"
+          },
+          {
+            "img": "https://th.bing.com/th/id/OIP.usWD4Ds7gU6ksZOZDNyF_AHaEK?w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5rm=2&w=1600&h=900&dpr=1.5&pid=ImgDetMain",
+            "text": "\"The lab excels in fostering innovation and learning. The dynamic team and expert guidance\"",
+            "name": "Person 1 "
+          },
+          {
+            "img": "https://th.bing.com/th/id/OIP.usWD4Ds7gU6ksZOZDNyF_AHaEK?w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5rm=2&w=1600&h=900&dpr=1.5&pid=ImgDetMain",
+            "text": "\"Working in small groups to test prototypes of AI applications, sometimes with partners from different countries.\"",
+            "name": "person 5"
+          },
+          {
+            "img": "images/picturesuraj.png",
+            "text": "\" Attending workshops and lectures led by visiting professors and industry experts help us alot\"",
+            "name": "person 6"
+          }
+      ]
+  }
+  

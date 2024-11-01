@@ -1,0 +1,120 @@
+/* General styles */
+.hero {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/022/403/663/large_2x/artificial-intelligence-technology-web-background-virtual-concept-ai-generated-photo.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px; /* Added padding for small screens */
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px; /* Limit width for larger screens */
+  width: 90%; /* Makes it more fluid on smaller screens */
+}
+
+/* Heading and paragraph sizes */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Button styles */
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive adjustments */
+/* For small devices (phones, portrait 320px - 480px) */
+@media (max-width: 480px) {
+  h1 {
+      font-size: 1.8rem; /* Smaller font for mobile */
+  }
+
+  p {
+      font-size: 1rem;
+  }
+
+  .btn {
+      padding: 8px 16px; /* Smaller button for mobile */
+  }
+
+  .hero-content {
+      padding: 15px;
+  }
+}
+
+/* For medium devices (tablets, landscape 481px - 768px) */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2rem;
+  }
+
+  p {
+      font-size: 1.1rem;
+  }
+
+  .hero {
+      height: 80vh; /* Slightly reduced height for tablets */
+  }
+}
+
+/* For large devices (laptops/desktops 769px - 1200px) */
+@media (max-width: 1200px) {
+  h1 {
+      font-size: 2.3rem;
+  }
+
+  p {
+      font-size: 1.15rem;
+  }
+
+  .hero {
+      height: 90vh; /* Adjust height for larger screens */
+  }
+}
+
+/* For extra-large devices (TV screens 1201px and up) */
+@media (min-width: 1201px) {
+  .hero-content {
+      max-width: 1000px; /* Increase max width for larger displays */
+  }
+
+  h1 {
+      font-size: 3rem;
+  }
+
+  p {
+      font-size: 1.3rem;
+  }
+
+  .btn {
+      padding: 12px 24px; /* Larger button for big screens */
+  }
+}

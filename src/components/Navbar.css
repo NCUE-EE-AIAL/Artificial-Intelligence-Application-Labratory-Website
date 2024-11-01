@@ -1,0 +1,94 @@
+/* Navbar.css */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navbar container for larger screens */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Navigation links for desktop */
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+  color: #007bff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Hide nav links on smaller screens */
+  .nav-links {
+      display: none;
+  }
+
+  /* Mobile menu icon */
+  .menu-icon {
+      display: block;
+      font-size: 1.5rem;
+      color: #333;
+      cursor: pointer;
+  }
+
+  /* Show nav links as a vertical dropdown when active */
+  .nav-links.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: #fff;
+      width: 100%;
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links li {
+      margin: 0.5rem 0;
+  }
+}
+
+/* Larger screens adjustments (1200px and up) */
+@media (min-width: 1200px) {
+  .navbar {
+      padding: 1rem 3rem;
+  }
+
+  .nav-links li {
+      margin: 0 1.5rem;
+  }
+}

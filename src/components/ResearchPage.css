@@ -1,0 +1,88 @@
+/* ResearchPage.css */
+.research-page {
+    padding: 50px;
+    background-color: #f4f7fa;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .research-section {
+    margin-top: 50px;
+  }
+  
+  .research-section h2 {
+    font-size: 2.5rem;
+    color: #3a3a3a;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  
+  .item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+  
+  .item-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: calc(var(--animation-order) * 0.1s);
+  }
+  
+  .item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .item-card h3 {
+    font-size: 1.4rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .item-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Add a subtle floating animation on hover */
+  .animate-fade-in {
+    position: relative;
+    animation: fadeInMove 1.2s ease-out;
+    opacity: 1;
+  }
+  
+  @keyframes fadeInMove {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
