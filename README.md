@@ -32,7 +32,7 @@ To work with this project locally:
 Clone the repository:
 
 bash
-git clone https://github.com/SurajMuccu/mylabwebsite.git
+git clone https://github.com/SurajMuccu/ncueaial.git
 Navigate to the project directory:
 
 bash
